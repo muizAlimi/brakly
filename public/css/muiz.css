@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #F9FBFF;
+}
+.container {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.nav-bar {
+    width: 100%;
+    height: 10%;
+    z-index: 999;
+    padding: 30px 0;
+}
+.nav-bar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar .container a {
+    text-decoration: none;
+}
+.nav-bar .logo a {
+    color: black;
+    font-size: 35px;
+    font-weight: 600;
+}
+.nav-bar ul {
+    margin-right: 20px;
+}
+.nav-bar ul li {
+    list-style: none;
+    display: inline-block ;
+}
+.nav-bar ul li a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+.nav-bar ul li a:hover {
+    font-size: 20px;
+    color: #654321;
+}
+.hero .container {
+}
+.hero .container .left-col {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 50%;
+}
+.hero .container .left-col h1{
+    text-align: justify;
+    font-size: 70px;
+    font-weight: bold;
+    color: #061934;
+    margin-bottom: 20px;
+}
+.hero .container .left-col p {
+    text-align: justify;
+    width: 71%;
+    color: #061934;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.hero .container .left-col a {
+    padding: 12px 36px;
+    width: fit-content;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #3C59FA;
+}

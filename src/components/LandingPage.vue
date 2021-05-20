@@ -17,7 +17,7 @@
     <section class="hero">
       <div class="container">
         <div class="left-col">
-          <h1>Turning banking on its head.</h1>
+          <h1>Turning banking<br/>on its head.</h1>
           <p>We'll nail your next project, because nobody
             wants a screw up!</p>
           <a class="hero-button">Learn More</a>
@@ -160,67 +160,14 @@ export default {
 </script>
 
 <style scoped>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  background-color: #F9FBFF;
-}
 
-.container {
-  max-width: 1300px;
-  padding: 0 80px;
-  margin: auto;
-}
 
-.nav-bar {
-  width: 100%;
-  height: 10%;
-  z-index: 999;
-  padding: 30px 0;
-}
-.nav-bar .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.nav-bar .container a {
-  text-decoration: none;
-}
 
-.nav-bar .logo a {
-  color: black;
-  font-size: 35px;
-  font-weight: 600;
-}
 
-.nav-bar ul {
-  margin-right: 20px;
-}
 
-.nav-bar ul li {
-  list-style: none;
-  display: inline-block ;
-}
 
-.nav-bar ul li a {
-  display: block;
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  margin-left: 25px;
-}
 
-.nav-bar ul li a:hover {
-  font-size: 20px;
-  color: #654321;
-}
 
-.hero .container {
-  display: flex;
-  justify-content: space-between;
-}
 
 </style>
