@@ -23,8 +23,12 @@
           <a class="hero-button">Learn More</a>
         </div>
         <div class="right-col">
-          <img src="../assets/dashboard.svg" alt="user-dashboard" class="user-dashboard">
-          <img src="../assets/pie-chart.svg" alt="pie-chart" class="pie-chart">
+          <div class="user-dashboard">
+            <img src="../assets/dashboard.svg" alt="user-dashboard">
+            <div class="pie-chart">
+              <img src="../assets/pie-chart.svg" alt="pie-chart">
+            </div>
+          </div>
         </div>
       </div>
     </section>
@@ -67,7 +71,8 @@
           <h1>International Banking</h1>
           <p>The money you deposit at the bank short-term cash is
             used to lend to others for long-term debt such as car
-            loans, credit cards, mortgages, and other debt vehicles. </p>
+            loans, credit cards, mortgages, and other debt vehicles.
+          </p>
           <div class="feature-list">
             <ul>
               <li>Quick Account Opening</li>
@@ -160,14 +165,10 @@ export default {
 </script>
 
 <style scoped>
+footer .container {
 
+}
+.container .footer-item {
 
-
-
-
-
-
-
-
-
+}
 </style>

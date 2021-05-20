@@ -10,10 +10,12 @@
     padding: 0 80px;
     margin: auto;
 }
+/*TODO NAV BAR CONTENT*/
 .nav-bar {
     width: 100%;
     height: 10%;
-    z-index: 999;
+    margin-top: -20px;
+    /*z-index: 999;*/
     padding: 30px 0;
 }
 .nav-bar .container {
@@ -47,6 +49,10 @@
     font-size: 20px;
     color: #654321;
 }
+/*TODO NAV BAR CONTENT END*/
+
+
+/*TODO HERO SECTION*/
 .hero .container {
 }
 .hero .container .left-col {
@@ -78,3 +84,160 @@
     font-size: 25px;
     background-color: #3C59FA;
 }
+.hero .container .left-col a:hover {
+    box-shadow: #2c3e50;
+    background-color: indigo;
+}
+.hero .container .right-col {
+}
+
+.hero .container .right-col .user-dashboard {
+    position: relative;
+}
+
+.hero .container .right-col .pie-chart {
+    position: absolute;
+    bottom: 0;
+    width: 10px;
+}
+
+.hero .right-col .pie-chart img {
+
+}
+/*TODO HERO SECTION END*/
+
+/*TODO WELLNESS SECTION*/
+.wellness .container {
+
+}
+
+.wellness .container .card{
+
+}
+
+.wellness .container .card .feature-card {
+
+}
+.wellness .container .card .feature-card img {
+
+}
+.wellness .container .card .feature-card .card-body {
+
+}
+
+.wellness .container .card .feature-card .card-body h1 {
+
+}
+
+.wellness .container .card .feature-card .card-body p {
+
+}
+/*TODO WELLNESS SECTION END*/
+
+/*TODO PERSONAL SECTION*/
+.personal {
+
+}
+
+.personal .container {
+
+}
+
+.personal .container .left-col {
+
+}
+.personal .container .left-col img {
+
+}
+.personal .container .right-col {
+
+}
+.personal .container .right-col h1 {
+
+}
+.personal .container .right-col p {
+
+}
+.personal .container .right-col a {
+
+}
+/*TODO PERSONAL SECTION END*/
+
+/*TODO INTERNATIONAL SECTION*/
+.international {
+
+}
+.international .container {
+
+}
+
+.international .container .left-col {
+
+}
+.international .container .left-col h1 {
+
+}
+.international .container .left-col p {
+
+}
+.international .container .left-col .feature-list {
+
+}
+
+.international .container .left-col .feature-list ul{
+
+}
+
+.international .container .left-col .feature-list ul li {
+
+}
+
+.international .container .right-col img {
+
+}
+/*TODO INTERNATIONAL SECTION END*/
+
+/*TODO DOWNLOAD SECTION*/
+.download {
+
+}
+.download .container {
+
+}
+.download .container img {
+
+}
+/*TODO DOWNLOAD SECTION END*/
+
+/*TODO CLIENTS SECTION*/
+.clients {
+
+}
+.clients .container {
+
+}
+.clients .container h1 {
+
+}
+.clients .container .card {
+
+}
+.clients .container .card .client-card {
+
+}
+.clients .container .card .client-card img .client-img{
+
+}
+.clients .container .card .client-card .card-body {
+
+}
+.clients .container .card .client-card .card-body h5{
+
+}
+.clients .container .card .client-card .card-body img {
+
+}
+.clients .container .card .client-card .card-body blockquote {
+
+}
+/*TODO CLIENTS SECTION END*/
