@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    list-style: none;
     background-color: #F9FBFF;
 }
 .container {
@@ -10,6 +11,8 @@
     padding: 0 80px;
     margin: auto;
 }
+
+
 /*TODO NAV BAR CONTENT*/
 .nav-bar {
     width: 100%;
@@ -58,7 +61,6 @@
 .hero .container .left-col {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
     width: 50%;
 }
 .hero .container .left-col h1{
@@ -107,27 +109,17 @@
 /*TODO HERO SECTION END*/
 
 /*TODO WELLNESS SECTION*/
-.wellness .container {
+.wellness .container {margin: 0;}
 
-}
+.wellness .container .card{display: flex;margin-left: 77px;}
 
-.wellness .container .card{
-
-}
-
-.wellness .container .card .feature-card {
-
-}
-.wellness .container .card .feature-card img {
-
-}
+.wellness .container .card .feature-card {border: 1px solid blue;border-radius: 10px;position: relative;margin-left: 3%;padding: 2px 4px;}
+.wellness .container .card .feature-card img {}
 .wellness .container .card .feature-card .card-body {
-
+    padding: 20px;
 }
 
-.wellness .container .card .feature-card .card-body h1 {
-
-}
+.wellness .container .card .feature-card .card-body h1 {margin-bottom: 5%;}
 
 .wellness .container .card .feature-card .card-body p {
 
@@ -135,26 +127,16 @@
 /*TODO WELLNESS SECTION END*/
 
 /*TODO PERSONAL SECTION*/
-.personal {
+.personal {/* display: flex; *//* justify-content: space-between; */}
 
-}
+.personal .container {display: flex;padding: 0;margin-left: 5%;align-items: center;}
 
-.personal .container {
-
-}
-
-.personal .container .left-col {
-
-}
+.personal .container .left-col {width: 71%;margin-left: -10%;}
 .personal .container .left-col img {
 
 }
-.personal .container .right-col {
-
-}
-.personal .container .right-col h1 {
-
-}
+.personal .container .right-col {}
+.personal .container .right-col h1 {font-size: 65px;}
 .personal .container .right-col p {
 
 }
@@ -168,18 +150,16 @@
 
 }
 .international .container {
-
+    padding: 0;
+    display: flex;
+    align-items: end;
+    margin-left: 7%;
+    margin-right: 0%;
 }
 
-.international .container .left-col {
-
-}
-.international .container .left-col h1 {
-
-}
-.international .container .left-col p {
-
-}
+.international .container .left-col {text-align: justify;margin-right: 3%;}
+.international .container .left-col h1 {font-size: 50px;margin-bottom: 4%;}
+.international .container .left-col p {text-align: justify;font-size: 18px;font-weight: lighter;line-height: 30px;margin-bottom: 4%;}
 .international .container .left-col .feature-list {
 
 }
@@ -188,9 +168,9 @@
 
 }
 
-.international .container .left-col .feature-list ul li {
+.international .container .left-col .feature-list ul li {margin-bottom: 3%;}
 
-}
+.international .container .right-col {margin-left: 4%;}
 
 .international .container .right-col img {
 
@@ -216,28 +196,51 @@
 .clients .container {
 
 }
-.clients .container h1 {
+.clients .container h1 {font-size: 4.4em;text-align: justify;}
 
-}
-.clients .container .card {
+.clients .container .card {display: grid;grid-template-columns: repeat(3, 2fr);gap: 50px;margin-top: 8%;}
 
-}
-.clients .container .card .client-card {
+.clients .container .card .client-card {border: 1px solid grey;border-radius: 10px;background-color: white;width: 109%;position: relative;padding: 4px 4px;}
 
-}
-.clients .container .card .client-card img .client-img{
-
-}
+.clients .container .card .client-card img.client-img{/* position: absolute; */}
 .clients .container .card .client-card .card-body {
 
 }
-.clients .container .card .client-card .card-body h5{
+.clients .container .card .client-card .card-body h5{font-size: 20px;}
+.clients .container .card .client-card .card-body {
 
 }
-.clients .container .card .client-card .card-body img {
-
-}
-.clients .container .card .client-card .card-body blockquote {
-
-}
+.clients .container .card .client-card .card-body blockquote {font-size: 17px;font-weight: 500;line-height: 26px;}
 /*TODO CLIENTS SECTION END*/
+
+/*TODO FOOTER SECTION*/
+footer {padding: 40px;margin: 7% 3%;background-color: #F0F6FE;background-size: cover;}
+footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F0F6FE;
+}
+.container .footer-item {margin-right: 58px;background-color: #F0F6FE;text-align: justify;}
+
+.container .footer-item h6 {font-size: 22px;}
+
+.container .footer-item p {
+
+}
+
+.container .footer-item  ul {}
+.container .footer-item  li {
+
+}
+
+.container .footer-item  li {margin-top: 17%;font-weight: 600;}
+
+.container .footer-item  .social {
+
+}
+
+.container .footer-item  .social img {
+
+}
+/*TODO FOOTER SECTION END*/

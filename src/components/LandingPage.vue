@@ -171,4 +171,27 @@ footer .container {
 .container .footer-item {
 
 }
+
+.container .footer-item p {
+
+}
+
+.container .footer-item  ul {
+
+}
+.container .footer-item  li {
+
+}
+
+.container .footer-item  li {
+
+}
+
+.container .footer-item  .social {
+
+}
+
+.container .footer-item  .social img {
+
+}
 </style>
