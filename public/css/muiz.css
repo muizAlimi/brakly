@@ -9,17 +9,17 @@
 .container {
     max-width: 1300px;
     padding: 0 80px;
-    margin: auto;
+    /* margin: auto; */
 }
 
 
 /*TODO NAV BAR CONTENT*/
 .nav-bar {
-    width: 100%;
+    width: 91%;
     height: 10%;
-    margin-top: -20px;
+    margin-bottom: 10%;
     /*z-index: 999;*/
-    padding: 30px 0;
+    padding: 0px 0;
 }
 .nav-bar .container {
     display: flex;
@@ -57,14 +57,17 @@
 
 /*TODO HERO SECTION*/
 .hero .container {
+    display: flex;
+    justify-content: space-between;
 }
 .hero .container .left-col {
-    display: flex;
-    flex-direction: column;
     width: 50%;
-}
-.hero .container .left-col h1{
+    height: 80vh;
     text-align: justify;
+}
+.hero .container .left-col h1 {
+    text-align: justify;
+    line-height: 116%;
     font-size: 70px;
     font-weight: bold;
     color: #061934;
@@ -75,7 +78,7 @@
     width: 71%;
     color: #061934;
     font-size: 20px;
-    margin-bottom: 40px;
+    margin-bottom: 52px;
 }
 .hero .container .left-col a {
     padding: 12px 36px;
@@ -90,13 +93,17 @@
     box-shadow: #2c3e50;
     background-color: indigo;
 }
-.hero .container .right-col {
-}
+.hero .container .right-col {width: 50%;height: 80vh;margin-left: 7%;}
 
 .hero .container .right-col .user-dashboard {
     position: relative;
 }
 
+.hero .container .right-col .user-dashboard img{
+    height: auto;
+    width: 100%;
+    margin-left: 10%;
+}
 .hero .container .right-col .pie-chart {
     position: absolute;
     bottom: 0;
@@ -111,9 +118,25 @@
 /*TODO WELLNESS SECTION*/
 .wellness .container {margin: 0;}
 
-.wellness .container .card{display: flex;margin-left: 77px;}
+.wellness .container .title {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 100px;
+}
 
-.wellness .container .card .feature-card {border: 1px solid blue;border-radius: 10px;position: relative;margin-left: 3%;padding: 2px 4px;}
+.wellness .container .card {
+    display: flex;
+    margin-left: 77px;
+}
+
+.wellness .container .card .feature-card {
+    border: 1px solid blue;
+    background-color: #EFF7FF;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 3%;
+    padding: 2px 4px;
+}
 .wellness .container .card .feature-card img {}
 .wellness .container .card .feature-card .card-body {
     padding: 20px;

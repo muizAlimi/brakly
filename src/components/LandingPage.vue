@@ -24,17 +24,14 @@
         </div>
         <div class="right-col">
           <div class="user-dashboard">
-            <img src="../assets/dashboard.svg" alt="user-dashboard">
-            <div class="pie-chart">
-              <img src="../assets/pie-chart.svg" alt="pie-chart">
-            </div>
+            <img src="../assets/dashboard.png" alt="user-dashboard">
           </div>
         </div>
       </div>
     </section>
     <section class="wellness">
       <div class="container">
-        <h1>Brakly Financial Wellness</h1>
+        <h1 class="title">Brakly Financial Wellness</h1>
         <div class="card">
           <FeatureCard :image-src="require('../assets/feature-card-img-1.svg')" card-header="Pay Bill"
                        card-paragraph="Banks are a very important part of the economy because they provide
