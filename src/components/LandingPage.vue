@@ -49,7 +49,7 @@
     <section class="personal">
       <div class="container">
         <div class="left-col">
-          <img src="../assets/recent-report.svg" alt="recent-report">
+          <img src="../assets/recent-report.png" alt="recent-report">
         </div>
         <div class="right-col">
           <h1>Personal Internet Banking</h1>
@@ -80,7 +80,7 @@
           </div>
         </div>
         <div class="right-col">
-          <img src="../assets/happy-couple.svg" alt="happy-couple">
+          <img src="../assets/happy-couple.png" alt="happy-couple">
         </div>
       </div>
     </section>
@@ -162,33 +162,4 @@ export default {
 </script>
 
 <style scoped>
-footer .container {
-
-}
-.container .footer-item {
-
-}
-
-.container .footer-item p {
-
-}
-
-.container .footer-item  ul {
-
-}
-.container .footer-item  li {
-
-}
-
-.container .footer-item  li {
-
-}
-
-.container .footer-item  .social {
-
-}
-
-.container .footer-item  .social img {
-
-}
 </style>

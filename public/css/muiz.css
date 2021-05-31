@@ -19,7 +19,7 @@
     height: 10%;
     margin-bottom: 10%;
     /*z-index: 999;*/
-    padding: 0px 0;
+    padding: 0 0;
 }
 .nav-bar .container {
     display: flex;
@@ -158,14 +158,16 @@
 .personal .container .left-col img {
 
 }
-.personal .container .right-col {}
-.personal .container .right-col h1 {font-size: 65px;}
-.personal .container .right-col p {
-
+.personal .container .right-col {
+    text-align: justify;
 }
-.personal .container .right-col a {
-
+.personal .container .right-col h1 {
+    font-size: 62px;
+    margin-bottom: 4%;
 }
+.personal .container .right-col p {line-height: 34px;color: #8086A0;font-size: 20px;margin-bottom: 2%;font-weight: lighter;}
+.personal .container .right-col a {font-size: 20px;color: #474747;}
+.personal .container .right-col a:hover {text-decoration: underline}
 /*TODO PERSONAL SECTION END*/
 
 /*TODO INTERNATIONAL SECTION*/
@@ -223,21 +225,19 @@
 
 .clients .container .card {display: grid;grid-template-columns: repeat(3, 2fr);gap: 50px;margin-top: 8%;}
 
-.clients .container .card .client-card {border: 1px solid grey;border-radius: 10px;background-color: white;width: 109%;position: relative;padding: 4px 4px;}
+.clients .container .card .client-card {border: 1px solid white;border-radius: 10px;background-color: white;width: 109%;position: relative;padding: 4px 4px;}
 
-.clients .container .card .client-card img.client-img{/* position: absolute; */}
+.clients .container .card .client-card img.client-img{/* position: absolute; */border: 7px solid red;border-radius: 50%;}
 .clients .container .card .client-card .card-body {
 
 }
-.clients .container .card .client-card .card-body h5{font-size: 20px;}
-.clients .container .card .client-card .card-body {
-
-}
-.clients .container .card .client-card .card-body blockquote {font-size: 17px;font-weight: 500;line-height: 26px;}
+.clients .container .card .client-card .card-body h5{font-size: 20px;background-color: white;}
+.clients .container .card .client-card .card-body {background: white;}
+.clients .container .card .client-card .card-body blockquote {font-size: 17px;font-weight: 500;line-height: 26px;background: white;}
 /*TODO CLIENTS SECTION END*/
 
 /*TODO FOOTER SECTION*/
-footer {padding: 40px;margin: 7% 3%;background-color: #F0F6FE;background-size: cover;}
+footer {padding: 30px;margin: 12% 3px 0 10px;background-color: #F0F6FE;background-size: cover;}
 footer .container {
     display: flex;
     align-items: center;
