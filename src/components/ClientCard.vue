@@ -3,7 +3,7 @@
     <img :src="imageSrc" alt="" class="client-img">
     <div class="card-body">
       <h5>{{clientName}}</h5>
-      <img src="" alt="" class="ratings">
+      <img src="../assets/ratings.png" alt="" class="ratings">
       <blockquote>{{clientQuote}}</blockquote>
     </div>
   </div>

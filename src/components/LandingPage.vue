@@ -2,7 +2,7 @@
   <div>
     <div class="nav-bar">
       <div class="container">
-        <div class="logo"><a href="#">Brakly</a></div>
+        <div class="logo"><a href="#"><span><img src="../assets/brakly-logo.png"></span>Brakly</a></div>
         <nav>
           <ul>
             <li><a href="#">Home</a></li>
@@ -145,6 +145,14 @@
             <img src="../assets/twitter.svg" alt="twitter">
             <img src="../assets/youtube.svg" alt="youtube">
             <img src="../assets/linkedin.svg" alt="linkedin">
+          </div>
+        </div>
+        <div class="bottom">
+          <div class="copyright"><p>Copyright@himel sunnath.All rights reserved</p></div>
+          <div class="other">
+            <a href="#">Privacy</a>
+            <a href="#">Security</a>
+            <a href="#">Terms</a>
           </div>
         </div>
       </div>
