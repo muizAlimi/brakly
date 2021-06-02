@@ -86,7 +86,7 @@
     </section>
     <section class="download">
       <div class="container">
-        <img src="../assets/download-app.svg" alt="app-download">
+        <img src="../assets/download-app.png" alt="app-download">
       </div>
     </section>
     <section class="clients">
