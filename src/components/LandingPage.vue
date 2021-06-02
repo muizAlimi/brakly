@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="nav-bar">
+    <div class="navbar navbar navbar-expand-lg navbar-light">
       <div class="container">
         <div class="logo"><a href="#"><span><img src="../assets/brakly-logo.png"></span>Brakly</a></div>
         <nav>
@@ -91,17 +91,17 @@
     </section>
     <section class="clients">
       <div class="container">
-        <h1>What our Client Say?</h1>
+        <h1>What our Clients Say?</h1>
         <div class="card">
-          <ClientCard  client-name="John Alex" :image-src="require('../assets/client-img1.svg')"
+          <ClientCard  client-name="John Alex" :image-src="require('../assets/client-img1.png')"
                        client-quote="When it comes to booking a holiday, we know
                                     everyone likes something different - so we've
                                     designed our getaways with you in mind."/>
-          <ClientCard  client-name="john Reb" :image-src="require('../assets/client-img2.svg')"
+          <ClientCard  client-name="john Reb" :image-src="require('../assets/client-img2.png')"
                        client-quote="When it comes to booking a holiday, we know
                                     everyone likes something different - so we've
                                     designed our getaways with you in mind."/>
-          <ClientCard  client-name="john Alex" :image-src="require('../assets/client-img3.svg')"
+          <ClientCard  client-name="john Alex" :image-src="require('../assets/client-img3.png')"
                        client-quote="When it comes to booking a holiday, we know
                                     everyone likes something different - so we've
                                     designed our getaways with you in mind."/>
@@ -165,8 +165,10 @@ import FeatureCard from "@/components/FeatureCard";
 import ClientCard from "@/components/ClientCard";
 export default {
   name: "LandingPage",
-  components: {ClientCard, FeatureCard},
+  components: { ClientCard, FeatureCard },
+
 }
+
 </script>
 
 <style scoped>
