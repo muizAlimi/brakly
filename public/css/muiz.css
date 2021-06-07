@@ -223,12 +223,8 @@
 .download {
 
 }
-.download .container {
-
-}
-.download .container img {
-
-}
+.download .container {margin-bottom: 50px;}
+.download .container img {width: 100%;}
 /*TODO DOWNLOAD SECTION END*/
 
 /*TODO CLIENTS SECTION*/
@@ -258,7 +254,8 @@
 /*TODO CLIENTS SECTION END*/
 
 /*TODO FOOTER SECTION*/
-footer {padding: 30px;margin: 12% 3px 0 10px;background-color: #F0F6FE;background-size: cover;}
+footer {padding: 30px;
+    margin: 12% 3px 0 10px;background-color: #F0F6FE;background-size: cover;}
 footer .container {
     display: flex;
     align-items: center;
@@ -339,14 +336,42 @@ footer .container .bottom .other {
         width: 60%;
         margin-bottom: 10%;
     }
-    .personal .container .right-col {text-align: center;}
+
+    .personal .container {
+    }
+
+    .personal .container .left-col {
+
+    }
+    .personal .container .left-col {width: 75%;margin-left: -10%;}
+    .personal .container .left-col img {width: 200%;height: 200%;}
+    .personal .container .right-col {text-align: center;margin-left: 21%;}
 
     .personal .container .right-col h1 {
-        font-size: 52px;
+        font-size: 2.7em;
     }
 
     .personal .container .right-col p {
-        font-size: 20px;
+        font-size: 15px;
+        text-align: center;
+        width: 80%;
+        margin-left: 11%;
+    }
+    .international .container .left-col {
+        width: 50%;
+    }
+    .international .container .left-col h1 {}
+    .international .container .left-col p {
+        /* text-align: center; */
+    }
+    .international .container .left-col .feature-list {}
+    .international .container .left-col .feature-list ul {
+    }
+    .international .container .left-col .feature-list ul li {font-size: 20px;}
+    .international .container .right-col {}
+    .international .container .right-col img {
+        width: 100%;
+        height: auto;
     }
     .clients .container .card {
 
@@ -368,10 +393,34 @@ footer .container .bottom .other {
 
 /*< XL*/
 @media (min-width: 1200px) {
+    .wellness .container {}
+
+    .wellness .container .title {
+    }
+
+    .wellness .container .card {
+
+    }
+
+    .wellness .container .card .feature-card {
+
+    }
+    .wellness .container .card .feature-card img {}
+    .wellness .container .card .feature-card .card-body {
+
+    }
+
+    .wellness .container .card .feature-card .card-body h1 {}
+
+    .wellness .container .card .feature-card .card-body p {
+
+    }
     .international .container .right-col img {
     }
     .international .container .left-col {
 
+    }
+    .download .container img {
     }
 }
 /*< XL END*/
